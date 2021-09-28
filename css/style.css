@@ -1,0 +1,175 @@
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; font-family: Arial;}
+:root{
+    --main-color: rgb(24, 187, 187);
+    --main-heading: 25px;
+    --main-heading-res: 17px;
+    --main-heading-color:#252525;
+    --sub-heading: 20px;
+    --sub-heading-res: 16px;
+    --sub-heading-color: #434343;
+    --sub-heading-2: 16px;
+    --sub-heading-2-res: 15px;
+    --sub-heading-color-2: #434343;
+    --paragraph-color:#424242;
+    --paragraph-size:13px;
+}
+h1{font-size: var(--main-heading); color: var(--main-heading-color);}
+h2{font-size: var(--sub-heading); color: var(--sub-heading-color);}
+h5{color: var(--sub-heading-color-2); font-size: var(--sub-heading-2);}
+p{font-size: var(--paragraph-size); color: var(--paragraph-color); line-height: 1rem;}
+
+
+.fa-quote-left, .fa-bars, .wishlist{color: var(--main-color); font-size: var(--sub-heading);}
+.m-left img{margin-right: 10px;}
+
+
+
+.container{max-width: 1200px; margin: 0px auto; padding: 0 40px; }
+.row-1{display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;}
+.row-2{display: flex; flex-wrap: wrap;}
+.d-flex{display: flex; align-items: center;}
+.col-2{width: 20%; padding: 12px;}
+.col-3{width: 25%; padding: 12px;}
+.col-4{width: 30%; padding: 12px;}
+.col-6{width: 50%; padding: 12px;}
+.btn{background-color: white; border:none; border-radius: 30px; color:black; padding:10px 30px;}
+
+/* ------------------navabar-------------------- */
+nav{width: 100%; position: fixed; transition: all 0.3s; z-index: 100; background-color: rgba(255,255,255,0.9); padding: 20px 40px; box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);}
+.nav-list{margin: 0; position: relative;}
+.nav-list li{ padding: 10px; display: inline-block; list-style: none;}
+.nav-list li a{ color: #000000;}
+.social-icon i{padding-left: 15px; color: #4d4b4b;}
+#cart{position: absolute; top: 26px; right: 27px; color: var(--main-color);}
+#check{display: none;}
+.check_btn{display: none;}
+
+/* --------------------banner----------------------------- */
+
+.slider-1{background: url(/img/bg-1.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
+.slider-2{background: url(/img/bg-2.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
+.box h2{ margin: 15px 0; color: #fff; font-size: 24px;}
+.box p{color: #fff; font-size: 16px !important;}
+.main-slider .owl-dots{position: absolute; bottom: 20px; left: 50%; transform: translate(-50% ,0);}
+
+/* ----------------------services------------------------- */
+.services{margin: 15px 0;}
+.border{border: 0.4px solid #cecccc; padding: 20px; border-radius: 3px; box-shadow: 0 0 0 0 rgba(0,0,0,0.2);}
+
+
+/* best seller section */
+.best-seller-section{background: #fff; margin: 15px auto; position: relative;}
+.best-seller-section .card-body{ border: 0.4px solid #cecccc; padding: 10px; margin-top: var(--text-margin); position: relative;}
+.card-content .star-rating{color: goldenrod; font-size: 15px; margin: 10px 0;}
+#new{position: absolute; left:12px; top:5px; font-size:12px; background: var(--main-color); padding:4px; color:white;}
+
+
+.owl-next{position: absolute; top:-50px; right:0px;}
+.owl-prev{position: absolute; top:-50px; right:40px;}
+.owl-next, .owl-prev{background:var(--main-color)!important; height:35px; width:35px; border-radius:100%!important;} 
+
+
+.bottom-btn{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    padding: 5px 15px;
+    width: 100%;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: bottom 0.6s;
+}
+.card-body:hover .bottom-btn{
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.search-bar{
+    position: absolute;
+    color: #000;
+    font-size: 1.1rem;
+    top: 93px;
+    background: #ffffff;
+    padding: 8px 10px;
+    border-radius: 100%;
+    left: 90px;
+    transform: scale(0);
+    transition: transform 0.4s;
+}
+.search-bar:hover{
+    background: #4FB68D;
+    color: #fff;
+}
+.card-body:hover .search-bar{
+    transform: scale(1.1);
+}
+
+
+/* Featured products section */
+.featured-product{background: url(/img/bg-back-1.jpg);padding: 40px 10px; background-size: cover;}
+.products-list{margin-top: 10px;}
+
+/* banner 2 section */
+.banner-2{margin-top: 20px;}
+
+/* Testimonial section  */
+.testimonial{background: url(/img/bg-back.jpg);  padding:50px 20px; background-size: cover; margin: 20px 0;}
+.testi-logo{position: relative; left: 20px;}
+.testi-content{background: #fff; box-shadow: 0 0 1px 0 rgba(0,0,0,0.1); border-radius: 4px; padding: 50px 20px; width: 100%;}
+
+/* footer */
+footer{background: #e7e7e7; margin-top: 20px;}
+.footer-ul{display: block;  padding: 10px 0;}
+.footer-ul li{padding: 10px 0; list-style: none;}
+.footer-ul li a{padding-left: 10px; color: #000; }
+.phone{color: var(--main-color);}
+.followMe-icon li{display: inline-block; list-style: none; margin: 0 7px; padding: 10px; background: #d4d3d3; border-radius: 6px; width: 40px; height: 40px;}
+.followMe-icon li {font-size: 1.2em;}
+.download-card{background: #d4d3d3; padding: 20px; border-radius: 6px;}
+.store_btn{margin: 15px 0;}
+
+
+
+
+
+/* responsive */
+
+@media(max-width:767px){
+
+.container{max-width: 95%; margin: 0px auto; padding: 0 10px; }
+.col-2{width: 20%; padding: 6px;}
+.col-3{width: 25%; padding: 6px;}
+.col-4{width: 30%; padding: 6px;}
+.col-6{width: 50%; padding: 6px;}
+.w-100{width: 90%;margin: 10px auto;}
+
+.social-icon{display: none;}
+.check_btn{display: block;}
+.logo img{width: 80px;}
+.nav-list{ position: fixed; background: #fff; width: 100%; text-align: center; top: 63px; height: 100vh; left: -100%; transition: left 0.6s; }
+.nav-list li{display: block; padding: 20px 10px;}
+
+#check:checked ~.nav-list{
+    left: 0;
+}
+
+
+h1{font-size: var(--main-heading-res); }
+h2{font-size: var(--sub-heading-res); }
+h5{font-size: var(--sub-heading-2-res);}
+p{line-height: 1rem;}
+.fa-quote-left{font-size: var(--sub-heading-2-res);}
+.m-left img{margin-right: 8px;}
+.btn{border-radius: 15px; padding:10px 15px;}
+
+.card img{height: 100px;}
+
+.border{padding: 10px 5px;}
+.none{flex-wrap: wrap;}
+
+
+.footer-res{flex-direction: column; margin-top: 10px; width: 100%;}
+.footer-ul{ padding: 20px 0;}
+.followMe-icon {padding-top: 20px;}
+}
