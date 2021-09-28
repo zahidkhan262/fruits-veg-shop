@@ -46,8 +46,8 @@ nav{width: 100%; position: fixed; transition: all 0.3s; z-index: 100; background
 
 /* --------------------banner----------------------------- */
 
-.slider-1{background: url(bg-1.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
-.slider-2{background: url(bg-2.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
+.slider-1{background: url("bg-1.jpg"); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
+.slider-2{background: url("bg-2.jpg"); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
 .box h2{ margin: 15px 0; color: #fff; font-size: 24px;}
 .box p{color: #fff; font-size: 16px !important;}
 .main-slider .owl-dots{position: absolute; bottom: 20px; left: 50%; transform: translate(-50% ,0);}
