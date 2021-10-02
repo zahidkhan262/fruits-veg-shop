@@ -46,8 +46,8 @@ nav{width: 100%; position: fixed; transition: all 0.3s; z-index: 100; background
 
 /* --------------------banner----------------------------- */
 
-.slider-1{background: url(/bg-1.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
-.slider-2{background: url(/bg-2.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
+.slider-1{background: url(../bg-1.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
+.slider-2{background: url(../bg-2.jpg); height: 550px; background-position: center; background-size: cover; padding:10px  40px; width:100%; color:white;}
 .box h2{ margin: 15px 0; color: #fff; font-size: 24px;}
 .box p{color: #fff; font-size: 16px !important;}
 .main-slider .owl-dots{position: absolute; bottom: 20px; left: 50%; transform: translate(-50% ,0);}
@@ -107,14 +107,14 @@ nav{width: 100%; position: fixed; transition: all 0.3s; z-index: 100; background
 
 
 /* Featured products section */
-.featured-product{background: url(/bg-back-1.jpg);padding: 40px 10px; background-size: cover;}
+.featured-product{background: url(../bg-back-1.jpg);padding: 40px 10px; background-size: cover;}
 .products-list{margin-top: 10px;}
 
 /* banner 2 section */
 .banner-2{margin-top: 20px;}
 
 /* Testimonial section  */
-.testimonial{background: url(/bg-back.jpg);  padding:50px 20px; background-size: cover; margin: 20px 0;}
+.testimonial{background: url(../bg-back.jpg);  padding:50px 20px; background-size: cover; margin: 20px 0;}
 .testi-logo{position: relative; left: 20px;}
 .testi-content{background: #fff; box-shadow: 0 0 1px 0 rgba(0,0,0,0.1); border-radius: 4px; padding: 50px 20px; width: 100%;}
 
